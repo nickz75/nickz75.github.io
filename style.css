@@ -1,0 +1,59 @@
+body {
+    font-family: Calibri,sans-serif;
+}
+header,
+nav,
+main,
+footer{
+    width: 500px;
+    margin: auto;
+}
+img {
+    width: 100px;
+}
+nav {
+    text-align: center;
+    border: 1px solid black;
+    padding: 6px;
+}
+nav a + a::before {
+    content: " | "
+}
+section {
+    border: 1px solid black;
+    padding: 8px;
+    margin-top: 8px;
+}
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,
+td {
+    padding: 3px;
+}
+footer {
+    text-align: center;
+}
+p{
+    color: black;
+}
+/*
+The class wins over the paragraph making email
+blue rather than black as classes have higher 
+score/priority than elements do.
+*/
+.contact-email {
+    color: rgba(0, 0, 255, 0.676)
+}
+.about {
+    font-style: italic;
+    font-weight: bold;
+}
+#page-header {
+    text-align: center;
+    border: 1px solid black;
+    padding: 8px;
+}
