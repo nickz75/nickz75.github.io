@@ -1,0 +1,3 @@
+1.First the browser gets a URL such as my website which is nickz75.github.io.After the browser checks if there's a connection and ensures a safe path onto the website.Then the path of the github from the repository which contains the files and folders. Lastly the browser checks to see if the files are connected and after shows the page.
+
+2. I had to look up how to do the spaces between the subsections so it looks neat and not stuck close together.
